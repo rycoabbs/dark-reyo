@@ -1,14 +1,14 @@
 import { connect } from "cloudflare:sockets";
 
 // Variables
-let rootDomain = "";
-let serviceName = "";
-let APP_DOMAIN = "";
+let rootDomain = "rycoabbs.my.id";
+let serviceName = "reyoabs";
+let APP_DOMAIN = "reyoabs.rycoabbs.my.id";
 
-const apiKey = ""; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
-const apiEmail = ""; // Ganti dengan email yang kalian gunakan
-const accountID = ""; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
-const zoneID = ""; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const apiKey = "03e03a2a105c71c0fd88b399babfaae711cb4"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
+const apiEmail = "cfworker2@gmail.com"; // Ganti dengan email yang kalian gunakan
+const accountID = "7ea59c718ebf64e851f8a0754c967172"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const zoneID = "2926f5ed106acdfec2272b3b118b2d3e"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 let isApiReady = false;
 let prxIP = "";
 let cachedPrxList = [];
